@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 export default () => {
-  const [name, setName] = useState<string | undefined>(undefined);
+  const [name, setName] = useState<string>('');
   const [matchingText, setMatchingText] = useState(false);
 
   useEffect(() => {
