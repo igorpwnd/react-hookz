@@ -30,7 +30,7 @@ export default () => {
 
   return (
     <div>
-      <h1 className={state.rainbowText && 'rainbow'}>
+      <h1 className={state.rainbowText ? 'rainbow' : ''}>
         UseReducer: {state.value}
       </h1>
       <p>

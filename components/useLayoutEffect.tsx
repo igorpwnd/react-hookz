@@ -21,7 +21,7 @@ export default () => {
         Roda antes do useEffect. Acontece antes de fato printar os elementos na
         tela. (Pode ajudar a resolver problemas de flickering na tela)
       </p>
-      <input type="text" value="React" ref={inputRef} />
+      <input type="text" ref={inputRef} />
     </div>
   );
 };
